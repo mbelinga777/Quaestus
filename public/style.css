@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 40px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+}

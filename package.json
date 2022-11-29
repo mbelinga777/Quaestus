@@ -1,0 +1,24 @@
+{
+    "name": "final-project-quaestus",
+    "version": "1.0.0",
+    "description": "final project for cs 290",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/osu-cs290-f22/final-project-quaestus.git"
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/osu-cs290-f22/final-project-quaestus/issues"
+    },
+    "homepage": "https://github.com/osu-cs290-f22/final-project-quaestus/blob/main/README.md",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-handlebars": "^6.0.6",
+        "handlebars": "^4.7.7"
+    }
+}
