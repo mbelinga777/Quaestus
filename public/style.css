@@ -4,31 +4,4 @@ header{
     position: relative;
     font-size: 40px;
 }
-.filter{
-    display: flex;
-    padding: 10px;
-    border: 1px solid black;
-    flex-direction: column;
-    position: fixed;
-    left: -400px;
-    background-color: white;
-}
-body{
-    display: flex;
-    flex-direction: column;
-}
-.content{
-    display: flex;
-}
-#slide{
-    display: flex;
-    flex-direction: column;
-}
-#slide:hover{
-    transform: translateX(400px);
-    transition: all 1s ease-in-out;
-}
-#filter-button{
-    position: fixed;
-    height: 50px;
-}
+

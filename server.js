@@ -14,7 +14,15 @@ app.set('view engine', 'handlebars')
 app.use(express.static('public'));
 
 app.get('/', function(req, res){
-    res.status(200).render('./partials/index');
+  res.status(200).render('./partials/home');
+});
+
+app.get('/food', function(req, res){
+    res.status(200).render('./partials/food');
+});
+
+app.get('/exercise', function(req, res){
+  res.status(200).render('./partials/exercise');
 });
 
 app.get("*", function (req, res) {
