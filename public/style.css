@@ -10,3 +10,14 @@ header img{
     height: 80px;
     width: auto;
 }
+.background {
+    background-image: url("stock_workout.jpg");
+    background-size: cover;
+}
+#scroll-box{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+}
