@@ -8,11 +8,12 @@ function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
 {
 
 }
-function filterExercise(muscleGroup,muscle,type)
+function filterExercise(muscle,type)
 {
     clearExercises()
+
 }
-function filterRecipes(alories,protein,sugar,carbs,fat)
+function filterRecipes(calories)
 {
     clearRecipes()
 }
@@ -26,9 +27,17 @@ function closeFoodMenu()
 }
 function clearExercises()
 {
-
+    var posts=document.getElementById('ExercisePosts')
+    while(posts.firstChild)
+    {
+      posts.removeChild(posts.firstChild)
+    }
 }
 function clearRecipes()
 {
-
+    var posts=document.getElementById('recipePosts')
+    while(posts.firstChild)
+    {
+       posts.removeChild(posts.firstChild)
+    } 
 }
