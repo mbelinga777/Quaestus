@@ -12,62 +12,90 @@ header img{
 }
 body{
     font-family: 'Krona One';
+    margin: 0;
 }
-.background {
-    background-image: url("stock_workout.jpg");
+.section1 {
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 80vh;
+    animation: 12s ease-in-out background-anim;
+    animation-iteration-count: infinite;
+}
+@keyframes background-anim{
+    0% {
+        background-image: url("stock_workout.jpg");
+    }
+    25% {
+        background-image: url("stock_workout_2.jpg");
+    }
+    50% {
+        background-image: url("stock_workout_3.jpg");
+    }
+    75% {
+        background-image: url("stock_workout_2.jpg");
+    }
+    100% {
+        background-image: url("stock_workout.jpg");
+    }
+}
+.buffer1{
+    padding-top: 5vh;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #3B5EEE, #A3A3A3);
+    background-size: 300% 300%;
+}
+.buffer1 p{
+    padding-top: 20px;
+}
+#go-to a{
+    font-size: 20px;
+    max-width: 150px;
 }
 #go-to{
     padding-top: 25px;
     display: flex;
-    flex-direction: row;
-    gap: 70px;
-    color: white;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
     padding-left: 25px;
-    font-size: 20px;
 }
 #go-to #exercise{
     box-shadow: inset 0 0 0 0 #3B5EEE;
-    color: white;
+    color: #fff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s;
 }
 #go-to #diet{
     box-shadow: inset 0 0 0 0 #38C407;
-    color: white;
+    color: #fff;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s;
 }
 #go-to #about{
-    box-shadow: inset 0 0 0 0 grey;
-    color: white;
+    box-shadow: inset 0 0 0 0 #A3A3A3;
+    color: #fff;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s;
 }
 #go-to a:visited{
-    color: white;
+    color: #fff;
 }
 #go-to a:link{
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 #go-to #exercise:hover{
-    box-shadow: inset 100px 0 0 0 #3B5EEE;
+    box-shadow: inset 150px 0 0 0 #3B5EEE;
 }
 #go-to #diet:hover{
-    box-shadow: inset 100px 0 0 0 #38C407;
+    box-shadow: inset 150px 0 0 0 #38C407;
 }
 #go-to #about:hover{
-    box-shadow: inset 100px 0 0 0 grey;
-}
-
-#scroll-box{
-    background-color: white;
-    position: absolute;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    left: 0px;
-    bottom: -1000px;
+    box-shadow: inset 150px 0 0 0 #A3A3A3;
 }
