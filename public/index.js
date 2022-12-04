@@ -24,25 +24,11 @@ function filterRecipes(calories)
 {
     clearRecipes()
 }
-function closeExercise()
+function toggleExerciseFilter()
 {
-    
+    document.getElementById("myDropdown").classList.toggle("show");
 }
-function closeFoodFilter()
-{
-    var modalB=document.getElementById('modal-backdrop')
-    var foodFilter=document.getElementById('sell-something-modal')
-    modalB.classList.add('hidden')
-    foodFilter.classList.add('hidden')
-    var text=document.getElementById('post-calories-input')
-    text.value=""
-    var textPhoto=document.getElementById('post-photo-input')
-    textPhoto.value=""
-    var textPrice=document.getElementById('post-price-input')
-    textPrice.value=""
-    var textCity=document.getElementById('post-city-input')
-    textCity.value=""
-}
+  
 function clearExercises()
 {
     var posts=document.getElementById('exercisePosts')
