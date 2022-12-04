@@ -1,14 +1,29 @@
 <p>Exercise</p>
 <header>
     <div class="header-image-container">
-        <img src="blue questus.png" alt=" Excersise page logo">
+        <!-- Iside the img tag there is a tag which is the link to the home page-->
+        <img src="blue questus.png" a="#" alt=" Excersise page logo">
     </div>
     <h1 class="page-title"><a herf ="#">Exercise page</a>h1>
+    <div>
+
+    </div>
 
 </header>
 
 <main class="content">
-    <aside class=" Filter-container">
+ <p><aside class=" Excersise-filter-container">
+
+  <div class="Excersise-filter-input-container">
+          <label for="Excersise-filter-text" class="Excersise-filter-input-label">Search Excersise</label>
+          <div class="Excersise-filter-input-element">
+           <input type="text" name="filter-text" id="filter-text" class="filter-input">
+          </div>
+           </div>
+            <button id="Search-update-button" class="Search-filter-excersise-button"> Search excersise</button>
+            </div>
+          <p>
+            
 
   <button onclick="myFunction()" class="dropbtn">Exercises</button>
   <div id="myDropdown" class="dropdown-content">
@@ -42,7 +57,36 @@
               <label for="filter-condition-core">core</label>
             </div>
             </fieldset>
-            </div>  
-</div>
+            </div>
+            <button id="filter-update-button" class="filter-excersise-button"> Update</button>
+            </div>
+
+            </aside>
+
+      
+
+    <section class ="Excersise-video">
+        <div class="video">
+            <iframe src="{{url}}"div></iframe> 
+
+        <div class="name">
+            {{name}} </div>
+
+        <div class="type">
+            {{type}}
+
+        </div>      
+    </section>
+
+
+
+                
+
+
+    
+    
+
+
+    
     
 </main>
