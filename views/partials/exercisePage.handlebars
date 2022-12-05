@@ -64,19 +64,11 @@
             </aside>
 
       
-
-    <section class ="Excersise-video">
-        <div class="video">
-            <iframe src="{{url}}"div></iframe> 
-
-        <div class="name">
-            {{name}} </div>
-
-        <div class="type">
-            {{type}}
-
-        </div>      
-    </section>
+            <section id="exercise-videos">
+                {{#each exerciseData}}
+                  {{> videoTemplate}}
+                {{/each}}
+              </section>
 
 
 
