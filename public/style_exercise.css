@@ -37,3 +37,12 @@
     font-size: 50px;
     flex-direction: row;
 }
+iframe {
+    height: 180px;
+    width: auto;
+}
+.exercise-header img{
+    padding-top: 40px;
+    height: 80px;
+    width: auto;
+}
