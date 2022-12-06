@@ -6,65 +6,57 @@
         <img src="blue questus.png" a="#" alt=" Excersise page logo">
     </div>
     <h1 class="page-title"><a herf ="#">Exercise page</a><h1>
-    <div>
-
-    </div>
 
 </header>
 
- <p><aside class=" Excersise-filter-container">
-
+<aside class=" Excersise-filter-container">
   <div class="Excersise-filter-input-container">
-          <label for="Excersise-filter-text" class="Excersise-filter-input-label">Search Excersise</label>
-          <div class="Excersise-filter-input-element">
-           <input type="text" name="filter-text" id="filter-text" class="filter-input">
-          </div>
-           </div>
-            <button id="Search-update-button" class="Search-filter-excersise-button"> Search excersise</button>
-            </div>
-          <p>
-            
-
+    <label for="Excersise-filter-text" class="Excersise-filter-input-label">Search Excersise</label>
+  </div>
+  <div class="Excersise-filter-input-element">
+    <input type="text" name="filter-text" id="filter-text" class="filter-input">
+  </div>
+  <button id="Search-update-button" class="Search-filter-excersise-button"> Search excersise</button>
+        
   <button onclick="toggleExerciseFilter()" class="dropbtn">Exercises</button>
+
   <div id="myDropdown" class="dropdown-content">
-
     <div class="filter-input-container">
-          <fieldset id="filter-condition" class="filter-fieldset">
+      <fieldset id="filter-condition" class="filter-fieldset">
+        <legend>Exercise type</legend>
+        <div>
+          <input type="checkbox" name="filter-condition" id="filter-condition-back" value="back">
+          <label for="filter-condition-new">Back</label>
+        </div>
+        <div>
+              <input type="checkbox" name="filter-condition" id="filter-condition-chest" value="chest">
+          <label for="filter-condition-chest">chest </label>
+        </div>
+        <div>
+              <input type="checkbox" name="filter-condition" id="filter-condition-arms" value="arms">
+          <label for="filter-condition-arms">arms</label>
+        </div>
+        <div>
+              <input type="checkbox" name="filter-condition" id="filter-condition-legs" value="legs">
+          <label for="filter-condition-legs">legs</label>
+        </div>
+        <div>
+              <input type="checkbox" name="filter-condition" id="filter-condition-cardio" value="cardio">
+          <label for="filter-condition-cardio">cardio</label>
+        </div>
+        <div>
+              <input type="checkbox" name="filter-condition" id="filter-condition-core" value="core">
+          <label for="filter-condition-core">core</label>
+        </div>
+      </fieldset>
+    </div>
+    <button id="filter-update-button" class="filter-excersise-button"> Update</button>
+  </div>
 
-            <legend>Exercise type</legend>
-            <div>
-              <input type="checkbox" name="filter-condition" id="filter-condition-back" value="back">
-              <label for="filter-condition-new">Back</label>
-            </div>
-            <div>
-                 <input type="checkbox" name="filter-condition" id="filter-condition-chest" value="chest">
-              <label for="filter-condition-chest">chest </label>
-            </div>
-            <div>
-                 <input type="checkbox" name="filter-condition" id="filter-condition-arms" value="arms">
-              <label for="filter-condition-arms">arms</label>
-            </div>
-            <div>
-                 <input type="checkbox" name="filter-condition" id="filter-condition-legs" value="legs">
-              <label for="filter-condition-legs">legs</label>
-            </div>
-            <div>
-                 <input type="checkbox" name="filter-condition" id="filter-condition-cardio" value="cardio">
-              <label for="filter-condition-cardio">cardio</label>
-            </div>
-            <div>
-                 <input type="checkbox" name="filter-condition" id="filter-condition-core" value="core">
-              <label for="filter-condition-core">core</label>
-            </div>
-            </fieldset>
-            </div>
-            <button id="filter-update-button" class="filter-excersise-button"> Update</button>
-            </div>
-
-            </aside>
-            
-            <section id="exercise-videos">
-                {{#each exerciseData}}
-                  {{> exerciseElement}}
-                {{/each}}
-            </section>
+</aside>
+          
+<section id="exercise-videos">
+    {{#each exerciseData}}
+      {{> exerciseElement}}
+    {{/each}}
+</section>
