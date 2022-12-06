@@ -1,11 +1,13 @@
 <p>Exercise</p>
-<link rel="stylesheet", href="/style_exercise.css">
 <header>
     <div class="header-image-container">
         <!-- Iside the img tag there is a tag which is the link to the home page-->
         <img src="blue questus.png" a="#" alt=" Excersise page logo">
     </div>
     <h1 class="page-title"><a herf ="#">Exercise page</a><h1>
+    <div>
+
+    </div>
 
 </header>
 
@@ -21,10 +23,9 @@
   </div>
         
   <button onclick="toggleExerciseFilter()" class="dropbtn">Exercises</button>
-
   <div id="myDropdown" class="dropdown-content">
     <div class="filter-input-container">
-      <fieldset id="filter-condition" class="filter-fieldset">
+      <fieldset id="filter-exercise" class="filter-fieldset">
         <legend>Exercise type</legend>
         <div>
           <input type="checkbox" name="filter-condition" id="filter-condition-back" value="back">
@@ -55,10 +56,43 @@
     <button id="filter-update-button" class="filter-excersise-button"> Update</button>
   </div>
 
-</aside>
-          
-<section id="exercise-videos">
-    {{#each exerciseData}}
-      {{> exerciseElement}}
-    {{/each}}
-</section>
+    <div class="filter-input-container">
+          <fieldset id="filter-condition" class="filter-fieldset">
+
+            <legend>Exercise type</legend>
+            <div>
+              <input type="checkbox" name="filter-condition" id="filter-condition-back" value="back">
+              <label for="filter-condition-new">Back</label>
+            </div>
+            <div>
+                 <input type="checkbox" name="filter-condition" id="filter-condition-chest" value="chest">
+              <label for="filter-condition-chest">chest </label>
+            </div>
+            <div>
+                 <input type="checkbox" name="filter-condition" id="filter-condition-arms" value="arms">
+              <label for="filter-condition-arms">arms</label>
+            </div>
+            <div>
+                 <input type="checkbox" name="filter-condition" id="filter-condition-legs" value="legs">
+              <label for="filter-condition-legs">legs</label>
+            </div>
+            <div>
+                 <input type="checkbox" name="filter-condition" id="filter-condition-cardio" value="cardio">
+              <label for="filter-condition-cardio">cardio</label>
+            </div>
+            <div>
+                 <input type="checkbox" name="filter-condition" id="filter-condition-core" value="core">
+              <label for="filter-condition-core">core</label>
+            </div>
+            </fieldset>
+            </div>
+            <button id="filter-update-button" class="filter-excersise-button"> Update</button>
+            </div>
+
+            </aside>
+            
+            <section id="exercise-videos">
+                {{#each exerciseData}}
+                  {{> exerciseElement}}
+                {{/each}}
+            </section>

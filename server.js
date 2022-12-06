@@ -19,7 +19,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/food', function(req, res){
-    res.status(200).render('./partials/food');
+    res.status(200).render('./partials/foodPage');
 });
 
 app.get('/exercise', function(req, res){
