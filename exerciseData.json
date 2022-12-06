@@ -2,27 +2,27 @@
   {
     "name": "Squat",
     "type": "Legs",
-    "videoURL": "www.youtube.com/embed/Dy28eq2PjcM"
+    "videoURL": "https://www.youtube-nocookie.com/embed/Dy28eq2PjcM"
   },
   {
     "name": "Deadlift",
     "type": "Legs",
-    "videoURL": "www.youtube.com/embed/-4qRntuXBSc"
+    "videoURL": "https://www.youtube-nocookie.com/embed/-4qRntuXBSc"
   },
   {
     "name": "Leg Press",
     "type": "Legs",
-    "videoURL": "www.youtube.com/embed/UYdx6ammdwU"
+    "videoURL": "https://www.youtube-nocookie.com/embed/UYdx6ammdwU"
   },
   {
     "name": "Calf raises",
     "type": "Legs",
-    "videoURL": "www.youtube.com/embed/ommnfVcLWxQ"
+    "videoURL": "https://www.youtube-nocookie.com/embed/ommnfVcLWxQ"
   },
   {
     "name": "Seated Leg Curls",
     "type": "Legs",
-    "videoURL": "https://www.youtube.com/embed/ELOCsoDSmrg"
+    "videoURL": "https://www.youtube-nocookie.com/embed/ELOCsoDSmrg"
   },
 
 
@@ -152,7 +152,7 @@
   {
     "name": "underhand Seated Row",
     "type": "Arms",
-    "videoURL": "https://www.youtube.com/embed/?v=YUhAXDSL7Ko"
+    "videoURL": "https://www.youtube.com/embed/YUhAXDSL7Ko"
   },
   {
     "name": "Reverse Curl Straight Bar",
