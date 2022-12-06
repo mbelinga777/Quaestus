@@ -24,6 +24,6 @@ templates['exerciseElement'] = template({"compiler":[8,">= 4.3.0"],"main":functi
     + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":10,"column":65},"end":{"line":10,"column":73}}}) : helper)))
     + ">("
     + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":10,"column":75},"end":{"line":10,"column":83}}}) : helper)))
-    + ")</span>\r\n    </div>\r\n</div>\r\n";
+    + ")</span>\r\n    </div>\r\n</div>";
 },"useData":true});
 })();

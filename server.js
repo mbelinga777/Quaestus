@@ -23,9 +23,9 @@ app.get('/food', function(req, res){
 });
 
 app.get('/exercise', function(req, res){
-  res.status(200).render('./partials/exercisePage'), {
+  res.status(200).render('./partials/exercisePage', {
     exerciseData: exerciseData
-  };
+  });
 });
 
 app.get("*", function (req, res) {
