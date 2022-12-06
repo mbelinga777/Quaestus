@@ -29,125 +29,201 @@
   {
     "name": "Bench Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=gRVjAtPip0Y"
+    "videoURL": "https://www.youtube.com/embed/gRVjAtPip0Y"
   },
   {
     "name": "Push Up",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=IODxDxX7oi4"
+    "videoURL": "https://www.youtube.com/embed/IODxDxX7oi4"
   },
   {
     "name": "Dumbell Flyes",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=QENKPHhQVi4"
+    "videoURL": "https://www.youtube.com/embed/QENKPHhQVi4"
   },
   {
     "name": "Incline Bench Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=jPLdzuHckI8"
+    "videoURL": "https://www.youtube.com/embed/QENKPHhQVi4"
   },
   {
     "name": "Chest Press",
     "type": "Chest",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=2y6ntGVg4dw"
+=======
+    "videoURL": "https://www.youtube.com/embed/2y6ntGVg4dw"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
 
 
   {
     "name": "Pull Ups",
     "type": "Back",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=eGo4IYlbE5g"
+=======
+    "videoURL": "https://www.youtube.com/embed/eGo4IYlbE5g"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Bent Over Barbell Rows",
     "type": "Back",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=kBWAon7ItDw"
+=======
+    "videoURL": "https://www.youtube.com/embed/kBWAon7ItDw"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Lat Pull-Downs",
     "type": "Back",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=CAwf7n6Luuc"
+=======
+    "videoURL": "https://www.youtube.com/embed/CAwf7n6Luuc"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Barbell Shrugs",
     "type": "Back",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=NAqCVe2mwzM"
+=======
+    "videoURL": "https://www.youtube.com/embed/CAwf7n6Luuc"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Inverted rows",
     "type": "Back",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=hXTc1mDnZCw"
+=======
+    "videoURL": "https://www.youtube.com/embed/hXTc1mDnZCw"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
 
 
   {
     "name": "Sit Up",
     "type": "Core",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=UMaZGY6CbC4"
+=======
+    "videoURL": "https://www.youtube.com/embed/UMaZGY6CbC4"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Russian Twists",
     "type": "Core",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=wkD8rjkodUI"
+=======
+    "videoURL": "https://www.youtube.com/embed/wkD8rjkodUI"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Plank",
     "type": "Core",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=yeKv5oX_6GY"
+=======
+    "videoURL": "https://www.youtube.com/embed/yeKv5oX_6GY"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Leg Raises",
     "type": "Core",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=l4kQd9eWclE"
+=======
+    "videoURL": "https://www.youtube.com/embed/l4kQd9eWclE"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Crunches",
     "type": "Core",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=MKmrqcoCZ-M"
+=======
+    "videoURL": "https://www.youtube.com/embed/MKmrqcoCZ-M"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
 
 
   {
     "name": "Running",
     "type": "Cardio",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=kVnyY17VS9Y"
+=======
+    "videoURL": "https://www.youtube.com/embed/kVnyY17VS9Y"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Stair Master",
     "type": "Cardio",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=wkD8rjkodUI"
+=======
+    "videoURL": "https://www.youtube.com/embed/wkD8rjkodUI"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Stationary Bike",
     "type": "Cardio",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=rEqRmKAQ5xM"
+=======
+    "videoURL": "https://www.youtube.com/embed/rEqRmKAQ5xM"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Battle Rope",
     "type": "Cardio",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=Ah4Uys8YNZU"
+=======
+    "videoURL": "https://www.youtube.com/embed/Ah4Uys8YNZU"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Jumping Jacks",
     "type": "Cardio",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=iSSAk4XCsRA"
+=======
+    "videoURL": "https://www.youtube.com/embed/iSSAk4XCsRA"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
 
 
   {
     "name": "Incline Bicep Curl",
     "type": "Arms",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=soxrZlIl35U"
+=======
+    "videoURL": "https://www.youtube.com/embed/soxrZlIl35U"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Concentration Curls",
     "type": "Arms",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=0AUGkch3tzc"
+=======
+    "videoURL": "https://www.youtube.com/embed/0AUGkch3tzc"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "Dumbell Twisting Curls",
     "type": "Arms",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=wL85MrmoCLc"
+=======
+    "videoURL": "https://www.youtube.com/embed/wL85MrmoCLc"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   },
   {
     "name": "underhand Seated Row",
@@ -157,6 +233,10 @@
   {
     "name": "Reverse Curl Straight Bar",
     "type": "Arms",
+<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=eve_ZgHapkw"
+=======
+    "videoURL": "https://www.youtube.com/embed/eve_ZgHapkw"
+>>>>>>> parent of 6873e2e (Merge branch 'main' of https://github.com/osu-cs290-f22/final-project-quaestus)
   }
 ]
