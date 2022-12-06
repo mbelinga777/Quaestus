@@ -2,10 +2,21 @@ var path = require('path');
 var express = require('express');
 var exphbs = require('express-handlebars');
 var exerciseData = require('./exerciseData.json');
-
+var session = require('cookie-session');
 var app = express();
 var port = process.env.PORT || 3000;
 
+app.use(session({
+  allowedHeaders: ['sessionId', 'Content-Type'],
+  exposedHeaders: ['sessionId'],
+  secret: 'reply-analyzer',
+  resave: false,
+  saveUninitialized: false,
+  cookie : {
+      secure: true,
+      sameSite: 'None'
+    }
+}));
 app.engine('handlebars', exphbs.engine({
   defaultLayout: "main"
 }))

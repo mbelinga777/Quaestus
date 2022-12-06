@@ -29,134 +29,134 @@
   {
     "name": "Bench Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/watch?v=gRVjAtPip0Y"
+    "videoURL": "https://www.youtube.com/embed/?v=gRVjAtPip0Y"
   },
   {
     "name": "Push Up",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/watch?v=IODxDxX7oi4"
+    "videoURL": "https://www.youtube.com/embed/?v=IODxDxX7oi4"
   },
   {
     "name": "Dumbell Flyes",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/watch?v=QENKPHhQVi4"
+    "videoURL": "https://www.youtube.com/embed/?v=QENKPHhQVi4"
   },
   {
     "name": "Incline Bench Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/watch?v=jPLdzuHckI8"
+    "videoURL": "https://www.youtube.com/embed/?v=jPLdzuHckI8"
   },
   {
     "name": "Chest Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/watch?v=2y6ntGVg4dw"
+    "videoURL": "https://www.youtube.com/embed/?v=2y6ntGVg4dw"
   },
 
 
   {
     "name": "Pull Ups",
     "type": "Back",
-    "videoURL": "https://www.youtube.com/watch?v=eGo4IYlbE5g"
+    "videoURL": "https://www.youtube.com/embed/?v=eGo4IYlbE5g"
   },
   {
     "name": "Bent Over Barbell Rows",
     "type": "Back",
-    "videoURL": "https://www.youtube.com/watch?v=kBWAon7ItDw"
+    "videoURL": "https://www.youtube.com/embed/?v=kBWAon7ItDw"
   },
   {
     "name": "Lat Pull-Downs",
     "type": "Back",
-    "videoURL": "https://www.youtube.com/watch?v=CAwf7n6Luuc"
+    "videoURL": "https://www.youtube.com/embed/?v=CAwf7n6Luuc"
   },
   {
     "name": "Barbell Shrugs",
     "type": "Back",
-    "videoURL": "https://www.youtube.com/watch?v=NAqCVe2mwzM"
+    "videoURL": "https://www.youtube.com/embed/?v=NAqCVe2mwzM"
   },
   {
     "name": "Inverted rows",
     "type": "Back",
-    "videoURL": "https://www.youtube.com/watch?v=hXTc1mDnZCw"
+    "videoURL": "https://www.youtube.com/embed/?v=hXTc1mDnZCw"
   },
 
 
   {
     "name": "Sit Up",
     "type": "Core",
-    "videoURL": "https://www.youtube.com/watch?v=UMaZGY6CbC4"
+    "videoURL": "https://www.youtube.com/embed/?v=UMaZGY6CbC4"
   },
   {
     "name": "Russian Twists",
     "type": "Core",
-    "videoURL": "https://www.youtube.com/watch?v=wkD8rjkodUI"
+    "videoURL": "https://www.youtube.com/embed/?v=wkD8rjkodUI"
   },
   {
     "name": "Plank",
     "type": "Core",
-    "videoURL": "https://www.youtube.com/watch?v=yeKv5oX_6GY"
+    "videoURL": "https://www.youtube.com/embed/?v=yeKv5oX_6GY"
   },
   {
     "name": "Leg Raises",
     "type": "Core",
-    "videoURL": "https://www.youtube.com/watch?v=l4kQd9eWclE"
+    "videoURL": "https://www.youtube.com/embed/?v=l4kQd9eWclE"
   },
   {
     "name": "Crunches",
     "type": "Core",
-    "videoURL": "https://www.youtube.com/watch?v=MKmrqcoCZ-M"
+    "videoURL": "https://www.youtube.com/embed/?v=MKmrqcoCZ-M"
   },
 
 
   {
     "name": "Running",
     "type": "Cardio",
-    "videoURL": "https://www.youtube.com/watch?v=kVnyY17VS9Y"
+    "videoURL": "https://www.youtube.com/embed/?v=kVnyY17VS9Y"
   },
   {
     "name": "Stair Master",
     "type": "Cardio",
-    "videoURL": "https://www.youtube.com/watch?v=wkD8rjkodUI"
+    "videoURL": "https://www.youtube.com/embed/?v=wkD8rjkodUI"
   },
   {
     "name": "Stationary Bike",
     "type": "Cardio",
-    "videoURL": "https://www.youtube.com/watch?v=rEqRmKAQ5xM"
+    "videoURL": "https://www.youtube.com/embed/?v=rEqRmKAQ5xM"
   },
   {
     "name": "Battle Rope",
     "type": "Cardio",
-    "videoURL": "https://www.youtube.com/watch?v=Ah4Uys8YNZU"
+    "videoURL": "https://www.youtube.com/embed/?v=Ah4Uys8YNZU"
   },
   {
     "name": "Jumping Jacks",
     "type": "Cardio",
-    "videoURL": "https://www.youtube.com/watch?v=iSSAk4XCsRA"
+    "videoURL": "https://www.youtube.com/embed/?v=iSSAk4XCsRA"
   },
 
 
   {
     "name": "Incline Bicep Curl",
     "type": "Arms",
-    "videoURL": "https://www.youtube.com/watch?v=soxrZlIl35U"
+    "videoURL": "https://www.youtube.com/embed/?v=soxrZlIl35U"
   },
   {
     "name": "Concentration Curls",
     "type": "Arms",
-    "videoURL": "https://www.youtube.com/watch?v=0AUGkch3tzc"
+    "videoURL": "https://www.youtube.com/embed/?v=0AUGkch3tzc"
   },
   {
     "name": "Dumbell Twisting Curls",
     "type": "Arms",
-    "videoURL": "https://www.youtube.com/watch?v=wL85MrmoCLc"
+    "videoURL": "https://www.youtube.com/embed/?v=wL85MrmoCLc"
   },
   {
     "name": "underhand Seated Row",
     "type": "Arms",
-    "videoURL": "https://www.youtube.com/watch?v=YUhAXDSL7Ko"
+    "videoURL": "https://www.youtube.com/embed/?v=YUhAXDSL7Ko"
   },
   {
     "name": "Reverse Curl Straight Bar",
     "type": "Arms",
-    "videoURL": "https://www.youtube.com/watch?v=eve_ZgHapkw"
+    "videoURL": "https://www.youtube.com/embed/?v=eve_ZgHapkw"
   }
 ]
