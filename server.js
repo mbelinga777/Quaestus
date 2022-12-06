@@ -22,7 +22,7 @@ app.get('/food', function(req, res){
 });
 
 app.get('/exercise', function(req, res){
-  res.status(200).render('./partials/exercise');
+  res.status(200).render('./partials/exercisePage');
 });
 
 app.get("*", function (req, res) {
