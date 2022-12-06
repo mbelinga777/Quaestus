@@ -5,7 +5,8 @@
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
-        "prestart": "npm install dependencies"
+        "prestart": "npm install dependencies && npm run build",
+        "build": "handlebars ./views/partials/exerciseElement.handlebars -f ./public/exerciseElement.js"
     },
     "repository": {
         "type": "git",
