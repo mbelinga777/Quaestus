@@ -1,6 +1,7 @@
 var path = require('path');
 var express = require('express');
-var exphbs = require('express-handlebars')
+var exphbs = require('express-handlebars');
+var exerciseData = require('./exerciseData.json');
 
 var app = express();
 var port = process.env.PORT || 3000;
@@ -22,7 +23,9 @@ app.get('/food', function(req, res){
 });
 
 app.get('/exercise', function(req, res){
-  res.status(200).render('./partials/exercise');
+  res.status(200).render('./partials/exercisePage'), {
+    exerciseData: exerciseData
+  };
 });
 
 app.get("*", function (req, res) {
