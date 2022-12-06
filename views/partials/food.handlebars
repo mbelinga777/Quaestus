@@ -1,1 +1,120 @@
 <p>food</p>
+<header>
+    <div class="header-image-container">
+        <!-- Iside the img tag there is a tag which is the link to the home page-->
+        <img src="green_quaestus.png" a="#" alt=" Food page logo">
+    </div>
+    <h1 class="page-title"><a herf ="#">Food page</a><h1>
+    <div>
+
+    </div>
+
+</header>
+
+<main class="content">
+ <p><aside class=" food-filter-container">
+
+  <div class="food-filter-input-container">
+          <label for="Food-filter-text" class="Food-filter-input-label">Search recipes</label>
+          <div class="food-filter-input-element">
+           <input type="text" name="filter-text" id="filter-text" class="food-filter-input">
+          </div>
+           </div>
+            <button id="Search-update-button" class="Search-filter-excersise-button"> Search recipes</button>
+            </div>
+          <p>
+            
+
+  <button onclick="toggle-Exercise-food-Filter()" class="food-dropbtn">Recipes</button>
+  <div id="myDropdown" class="dropdown-content">
+
+    <div class="food-filter-input-container">
+          <fieldset id="filter-condition" class="filter-fieldset">
+
+
+            <legend>Filter recipes</legend>
+            <!-- This is for the Min and the Max amount of calories  -->
+            <div>
+              <label for="filter-min-calories" class="filter-input-label">Calories</label>
+          <div class="filter-input-element">
+            <input type="text" name="filter-min-price" id="filter-min-calories" class="filter-input" placeholder="min">
+          </div>
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-calories" id="filter-max-calories" class="filter-input" placeholder="max">
+          </div>
+        </div>
+            
+            <!-- This is for the Min and the Max amount of Proteins  -->
+            
+            <div>
+                 <label for="filter-min-Protein" class="filter-input-label">Protein</label>
+          <div class="filter-input-element">
+            <input type="text" name="filter-min-Protein" id="filter-min-Protein" class="filter-input" placeholder="min">
+          </div>
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-Protein" id="filter-max-Protein" class="filter-input" placeholder="max">
+          </div>
+        </div>
+
+            <!-- This is for the Min and the Max amount of Carbs  -->
+
+            
+                <div>
+                 <label for="filter-min-carbs" class="filter-input-label">Carbs</label>
+          <div class="filter-input-element">
+            <input type="text" name="filter-min-carbs" id="filter-min-carbs" class="filter-input" placeholder="min">
+          </div>
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-carbs" id="filter-max-carbs" class="filter-input" placeholder="max">
+          </div>
+        </div>
+
+            <!-- This is for the Min and the Max amount of Fats  -->
+
+        
+                <div>
+                 <label for="filter-min-fat" class="filter-input-label">Fats</label>
+          <div class="filter-input-element">
+            <input type="text" name="filter-min-fat" id="filter-min-fats" class="filter-input" placeholder="min">
+          </div>
+
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-fat" id="filter-max-fat" class="filter-input" placeholder="max">
+          </div>
+        </div>
+            </fieldset>
+            </div>
+            <button id="filter-update-button" class="filter-excersise-button"> Update</button>
+            </div>
+
+            </aside>
+
+            
+
+      
+
+    <section class ="Excersise-video">
+        <div class="video">
+            <iframe src="{{url}}"div></iframe> 
+
+        <div class="name">
+            {{name}} </div>
+
+        <div class="type">
+            {{type}}
+
+        </div>      
+    </section>
+
+
+
+                
+
+
+    
+    
+
+
+    
+    
+</main>
