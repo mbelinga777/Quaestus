@@ -2,49 +2,49 @@
   {
     "name": "Squat",
     "type": "Legs",
-    "videoURL": "https://www.youtube-nocookie.com/embed/Dy28eq2PjcM"
+    "videoURL": "https://youtu.be/Dy28eq2PjcM"
   },
   {
     "name": "Deadlift",
     "type": "Legs",
-    "videoURL": "https://www.youtube-nocookie.com/embed/-4qRntuXBSc"
+    "videoURL": "https://youtu.be/-4qRntuXBSc"
   },
   {
     "name": "Leg Press",
     "type": "Legs",
-    "videoURL": "https://www.youtube-nocookie.com/embed/UYdx6ammdwU"
+    "videoURL": "https://youtu.be/UYdx6ammdwU"
   },
   {
     "name": "Calf raises",
     "type": "Legs",
-    "videoURL": "https://www.youtube-nocookie.com/embed/ommnfVcLWxQ"
+    "videoURL": "https://youtu.be/ommnfVcLWxQ"
   },
   {
     "name": "Seated Leg Curls",
     "type": "Legs",
-    "videoURL": "https://www.youtube-nocookie.com/embed/ELOCsoDSmrg"
+    "videoURL": "https://youtu.be/ELOCsoDSmrg"
   },
 
 
   {
     "name": "Bench Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=gRVjAtPip0Y"
+    "videoURL": "https://www.youtube.com/watch?v=gRVjAtPip0Y"
   },
   {
     "name": "Push Up",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=IODxDxX7oi4"
+    "videoURL": "https://www.youtube.com/watch?v=IODxDxX7oi4"
   },
   {
     "name": "Dumbell Flyes",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=QENKPHhQVi4"
+    "videoURL": "https://www.youtube.com/watch?v=QENKPHhQVi4"
   },
   {
     "name": "Incline Bench Press",
     "type": "Chest",
-    "videoURL": "https://www.youtube.com/embed/?v=jPLdzuHckI8"
+    "videoURL": "https://www.youtube.com/watch?v=jPLdzuHckI8"
   },
   {
     "name": "Chest Press",

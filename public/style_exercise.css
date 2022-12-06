@@ -1,6 +1,0 @@
-#exercise-videos{
-    display: flex;
-    flex: 1 0 auto;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}

@@ -1,32 +1,28 @@
 <p>food</p>
 <header>
+
     <div class="header-image-container">
         <!-- Iside the img tag there is a tag which is the link to the home page-->
         <img src="green_quaestus.png" a="#" alt=" Food page logo">
     </div>
     <h1 class="page-title"><a herf ="#">Food page</a><h1>
-    <div>
-
-    </div>
+   
 
 </header>
 
-<main class="content">
- <p><aside class=" food-filter-container">
+ <aside class=" food-filter-container">
 
   <div class="food-filter-input-container">
           <label for="Food-filter-text" class="Food-filter-input-label">Search recipes</label>
           <div class="food-filter-input-element">
            <input type="text" name="filter-text" id="filter-text" class="food-filter-input">
-          </div>
-           </div>
-            <button id="Search-update-button" class="Search-filter-excersise-button"> Search recipes</button>
+           <button id="Search-update-button" class="Search-filter-excersise-button"> Search recipes</button>
             </div>
-          <p>
-            
 
-  <button onclick="toggle-Exercise-food-Filter()" class="food-dropbtn">Recipes</button>
-  <div id="myDropdown" class="dropdown-content">
+
+ <button onclick="toggle-Exercise-food-Filter()" class="food-dropbtn">Recipes</button>
+  <div id="myDropdown" class="dropdown-content"> </div>
+
 
     <div class="food-filter-input-container">
           <fieldset id="filter-condition" class="filter-fieldset">
@@ -87,16 +83,77 @@
             <button id="filter-update-button" class="filter-excersise-button"> Update</button>
             </div>
 
-            </aside>
+</aside>
+
+            <button id="post-something-button"><i class="fas fa-plus"></i></button>
+
+            <div id="modal-backdrop" class="hidden"></div>
+              <div id="sell-something-modal" class="hidden">
+                <div class="modal-dialog">
+
+                  <div class="modal-header">
+                    <h3>Post a recipe</h3>
+                    <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+                  
+                  </div>
+
+                  <div class="modal-body">
+
+                    <div class="post-input-element">
+                    <label for="post-text-input">Recipe name</label>
+                    <input type="text" id="post-text-input"></input>
+                    </div>
+
+
+                    <div class="post-input-element">
+                    <label for="post-text-input">Recipe description </label>
+                    <input type="text" id="post-description-input"></input>
+                    </div>
+
+                    <div class="post-input-element">
+                    <label for="post-photo-input">Photo URL</label>
+                    <input type="text" id="post-photo-input">
+                    </div>
+
+
+                   <div class="post-input-element">
+                    <label for="post-Protein-text-input">Protein </label>
+                    <input type="text" id="post-protein-input"></input>
+                    </div>
+
+                  <div class="post-input-element">
+                    <label for="post-text-Calories-input">Calories </label>
+                    <input type="text" id="post-calories-input"></input>
+                  </div>
+
+                  <div class="post-input-element">
+                    <label for="post-text-carbs-input">Carbs </label>
+                    <input type="text" id="post-carbs-input"></input>
+                  </div>
+
+                  <div class="post-input-element">
+                    <label for="post-fat-text-input">Fats </label>
+                    <input type="text" id="post-fats-text-input"></input>
+                  </div>
+
+
+        <div class="modal-footer">
+          <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+          <button type="button" id="modal-accept" class="action-button">Create a recipe</button>
+        </div>
+
+
+
+
+
 
             
 
+
       
 
-    <section class ="Excersise-video">
-      {{#each exerciseData}}
-        {{> exerciseElement}}
-      {{/each}}
+       
+             
     </section>
 
 
@@ -106,8 +163,3 @@
 
     
     
-
-
-    
-    
-</main>
