@@ -3,4 +3,29 @@
     flex: 1 0 auto;
     flex-wrap: wrap;
     align-content: flex-start;
+    gap: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+.show {display:block;}
+.page-title{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.Excersise-filter-input-container{
+    display: flex;
+    gap: 10px;
+}
+.Excersise-filter-input-container input[type=text]{
+    border-radius: 0px;
+    
 }
