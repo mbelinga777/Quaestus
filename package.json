@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node server.js",
         "prestart": "npm install dependencies && npm run build",
-        "build": "handlebars ./views/partials/exerciseElement.handlebars -f ./public/exerciseElement.js"
+        "build": "handlebars ./views/partials/exerciseElement.handlebars -f ./public/exerciseElement.js && handlebars ./views/partials/foodElement.handlebars -f ./public/foodElement.js"
     },
     "repository": {
         "type": "git",

@@ -1,12 +1,14 @@
 <div class ="excercise-video"  data-name={{name}} data-type={{type}}>
     <div class="video">
-        <iframe src={{videoURL}}></iframe> 
+        <iframe width="560" height="315" src={{videoURL}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="name">
-        {{name}} </div>
+        {{name}} 
+    </div>
     <div class="type">
         {{type}}
     </div>      
-        <div class="exercise-info-container">
-        <span class="exercise-name">${{name}}</span> <span class={{type}}>({{type}})</span>
+    <div class="exercise-info-container">
+     <span class="exercise-name">${{name}}</span> <span class={{type}}>({{type}})</span>
     </div>
 </div>
