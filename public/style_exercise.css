@@ -29,3 +29,11 @@
     border-radius: 0px;
     
 }
+.exercise-header{
+    display: flex;
+    flex-direction: row;
+}
+.exercise-header p{
+    font-size: 50px;
+    flex-direction: row;
+}
