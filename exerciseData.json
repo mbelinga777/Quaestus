@@ -29,38 +29,22 @@
   {
     "name": "Bench Press",
     "type": "Chest",
-<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=gRVjAtPip0Y"
-=======
-    "videoURL": "https://www.youtube.com/embed/gRVjAtPip0Y"
->>>>>>> cdd3333f38dd5e173ca83ce0c91735fdbc71dd58
   },
   {
     "name": "Push Up",
     "type": "Chest",
-<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=IODxDxX7oi4"
-=======
-    "videoURL": "https://www.youtube.com/embed/IODxDxX7oi4"
->>>>>>> cdd3333f38dd5e173ca83ce0c91735fdbc71dd58
   },
   {
     "name": "Dumbell Flyes",
     "type": "Chest",
-<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=QENKPHhQVi4"
-=======
-    "videoURL": "https://www.youtube.com/embed/QENKPHhQVi4"
->>>>>>> cdd3333f38dd5e173ca83ce0c91735fdbc71dd58
   },
   {
     "name": "Incline Bench Press",
     "type": "Chest",
-<<<<<<< HEAD
     "videoURL": "https://www.youtube.com/embed/?v=jPLdzuHckI8"
-=======
-    "videoURL": "https://www.youtube.com/embed/QENKPHhQVi4"
->>>>>>> cdd3333f38dd5e173ca83ce0c91735fdbc71dd58
   },
   {
     "name": "Chest Press",
