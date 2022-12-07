@@ -13,6 +13,7 @@ header img{
 body{
     font-family: 'Krona One';
     margin: 0;
+    background-color: #242424;
 }
 .section1 {
     background-size: cover;
