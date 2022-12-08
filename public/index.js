@@ -128,13 +128,25 @@ window.addEventListener('DOMContentLoaded', function(){
         var textName= document.getElementById('video-input-name')
         var textType= document.getElementById('video-input-type')
         var textURL= document.getElementById('video-input-url')
-
+         
         if(textName.value==""||textURL.value==""||textType.value=="") 
         {
             alert("please fill out all elements")
             return;
         }
+        var data={
+            name:textName.value,
+            type:textType.value,
+            videoURL: textURL.value,
+         }
         insertVideo(textName.value,textURL.value,textType.value)
         clearMenu()
+        /*
+        var theData=JSON.stringify(data)
+        fs.appendFile("exerciseData.json", theData , function (err) {
+            if (err) throw err;
+            console.log('The "data to append" was appended to file!');
+         });
+         */
     })
 });
