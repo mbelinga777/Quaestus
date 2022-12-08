@@ -154,4 +154,13 @@ window.addEventListener('DOMContentLoaded', function(){
            insertVideo(videoArray[i].name, videoArray[i].url, videoArray[i].type)
         }
     });
+
+    /**
+     * Food page filtering by nutrition value and by recipe name**************
+     */
+     var RecipeElems =document.getElementsByClassName('recipe-post');
+     /*
+     this part of the code handles the checkbox exercise filter 
+     */
+     var filterExButton = document.getElementById('filter-update-button');
 });
