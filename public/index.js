@@ -21,6 +21,10 @@ function toggleExerciseFilter()
 {
     document.getElementById("myDropdown").classList.toggle("show");
 }
+function toggleAddBtn()
+{
+    document.getElementById("addDropdown").classList.toggle("show");
+}
   
 function clearExercises()
 {
