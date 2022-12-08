@@ -18,18 +18,6 @@ function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
     this function filters all the exercises based on what boxes the user checked
 
 */
-
-function filterExercises(AllExercises)
-{
-    
-
-}
-
-function filterExercisesByname(name)
-{
-    clearExercises()
-}
-
 function filterRecipes(calories)
 {
     clearRecipes()
