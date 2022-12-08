@@ -1,5 +1,5 @@
-
 var videoArray=[];
+
 //var AllRecipes=Array.from(document.querySelectorAll())
 function insertVideo(name, videoURL,type) {
     var videoPost = Handlebars.templates.exerciseElement({
@@ -77,13 +77,10 @@ function parseVideoElem(videoElem) {
   
   }
 window.addEventListener('DOMContentLoaded', function(){
-
     
     var filterExButton = document.getElementById('filter-update-button');
-
-    filterExButton.addEventListener('click', function(videoArray) {
-        
-    var videoElems =document.getElementsByClassName('exercise-video')
+    var videoElems =document.getElementsByClassName('exercise-video');
+    filterExButton.addEventListener('click', function() {
     for (var i = 0; i < videoElems.length; i++) 
     {
         
@@ -102,9 +99,11 @@ window.addEventListener('DOMContentLoaded', function(){
         console.log(videoArray.length)
         for(var i=0; i<30;i++)
         {
-            console.log('inside for loop')
+            console.log(values[0])
+            console.log(videoArray[i].type)
             if(values.length!==0 && !values.includes(videoArray[i].type))
             {
+                console.log('inside for loop')
                 continue
             }
             
