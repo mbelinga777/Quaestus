@@ -7,7 +7,7 @@ function insertVideo(name, videoURL,type) {
       videoURL: videoURL,
       type: type,
     })
-    var videoSection = document.querySelector('#exercise-videos');
+    var videoSection = document.getElementById('exercise-videos');
     videoSection.insertAdjacentHTML("beforeend", videoPost);
   }
 function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
@@ -80,6 +80,9 @@ window.addEventListener('DOMContentLoaded', function(){
     
     var filterExButton = document.getElementById('filter-update-button');
     var videoElems =document.getElementsByClassName('exercise-video');
+    /*
+    this part of the code handles the checkbox exercise filter
+    */
     filterExButton.addEventListener('click', function() {
     for (var i = 0; i < videoElems.length; i++) 
     {
@@ -106,7 +109,7 @@ window.addEventListener('DOMContentLoaded', function(){
                 console.log('inside for loop')
                 continue
             }
-            
+            var tempVid
            insertVideo(videoArray[i].name, videoArray[i].url, videoArray[i].type)
         }
         toggleExerciseFilter()
