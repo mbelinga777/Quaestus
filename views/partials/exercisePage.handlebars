@@ -1,22 +1,21 @@
 <link rel="stylesheet" href="/style_exercise.css">
 <div class="exercise-header">
-    <p>queastus</p>
+    <p>quaestus</p>
     <img src="logo_blue.png" a="#" alt=" Excersise page logo">
-    <h1 class="page-title"><a herf ="#">Exercise page</a><h1>
+    <h1 class="page-title"><a herf ="#">/exercises</a><h1>
 </div>
 
 <aside class=" Excersise-filter-container">
   <div class="Excersise-filter-input-container">
-
-    <label for="Excersise-filter-text" class="Excersise-filter-input-label">Search Excersise</label>
   
-    <input type="text" name="filter-text" id="filter-text" class="filter-input">
+    <input type="text" name="filter-text" id="filter-text" placeholder="Search exercises..">
 
-    <button id="Search-update-button" class="Search-filter-excersise-button"> Search excersise</button>
+    <button id="Search-update-button"></button>
 
   </div>
-        
+  <div class = "dropbtnclass">
   <button onclick="toggleExerciseFilter()" class="dropbtn">Exercises</button>
+  </div>
   <div id="myDropdown" class="dropdown-content">
     <div class="filter-input-container">
       <fieldset id="filter-exercise" class="filter-fieldset">
@@ -49,9 +48,15 @@
     </div>
     <button id="filter-update-button" class="filter-excersise-button"> Update</button>
   </div>
-            
+
+</aside>  
+
   <section id="exercise-videos">
       {{#each exerciseData}}
         {{> exerciseElement}}
       {{/each}}
+  </section>
+
+  <section id="fade">
+    
   </section>
