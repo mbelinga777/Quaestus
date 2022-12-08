@@ -24,10 +24,11 @@ Filter and header
     display: none;
     position: absolute;
     background-color: #f6f6f6;
-    top: 10px;
+    top: 200px;
     min-width: 230px;
     border: 1px solid #ddd;
     z-index: 1;
+    color: #000;
 }
 .show {
     display:block;
