@@ -1,5 +1,5 @@
-
 var videoArray=[];
+
 //var AllRecipes=Array.from(document.querySelectorAll())
 function insertVideo(name, videoURL,type) {
     var videoPost = Handlebars.templates.exerciseElement({
@@ -18,18 +18,6 @@ function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
     this function filters all the exercises based on what boxes the user checked
 
 */
-
-function filterExercises(AllExercises)
-{
-    
-
-}
-
-function filterExercisesByname(name)
-{
-    clearExercises()
-}
-
 function filterRecipes(calories)
 {
     clearRecipes()
@@ -77,19 +65,17 @@ function parseVideoElem(videoElem) {
   
   }
 window.addEventListener('DOMContentLoaded', function(){
-
     
+    
+    var videoElems =document.getElementsByClassName('exercise-video');
+    /*
+    this part of the code handles the checkbox exercise filter 
+    */
     var filterExButton = document.getElementById('filter-update-button');
-
-    filterExButton.addEventListener('click', function(videoArray) {
-        
-    var videoElems =document.getElementsByClassName('exercise-video')
+    filterExButton.addEventListener('click', function() {
     for (var i = 0; i < videoElems.length; i++) 
     {
-        
-       videoArray.push(parseVideoElem(videoElems[i]));
-       console.log(videoArray[i].type)
-    
+       videoArray.push(parseVideoElem(videoElems[i]));    
     }
         clearExercises()
         var Videos=document.getElementById('exercise-videos')
@@ -99,17 +85,37 @@ window.addEventListener('DOMContentLoaded', function(){
         {
             values.push(muscleType[i].value)
         }
-        console.log(videoArray.length)
         for(var i=0; i<30;i++)
         {
-            console.log('inside for loop')
             if(values.length!==0 && !values.includes(videoArray[i].type))
             {
                 continue
             }
-            
+            var tempVid
            insertVideo(videoArray[i].name, videoArray[i].url, videoArray[i].type)
         }
         toggleExerciseFilter()
+    });
+
+
+    var searchExButton = document.getElementById('Search-update-button');
+    searchExButton.addEventListener('click', function() {
+    for (var i = 0; i < videoElems.length; i++) 
+    {
+        
+       videoArray.push(parseVideoElem(videoElems[i]));
+    
+    }
+        clearExercises()
+        var Videos=document.getElementById('exercise-videos')
+        var searched= document.getElementById('filter-text')
+        for(var i=0; i<30;i++)
+        {
+            if(searched.value!=="" && !videoArray[i].name.toLowerCase().includes(searched.value.toLowerCase()))
+            {
+                continue
+            }
+           insertVideo(videoArray[i].name, videoArray[i].url, videoArray[i].type)
+        }
     });
 });
