@@ -104,3 +104,12 @@ body{
 #exercise-videos{
     display: flex;
 }
+
+#page404 {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    padding-left: 25px;
+}
