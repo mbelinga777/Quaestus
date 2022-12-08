@@ -44,7 +44,15 @@ function parseVideoElem(videoElem) {
     return video;
   
   }
-
+  function getValues()
+  {
+      var filters = {
+          name: document.getElementById('filter-text').value,
+          type: document.getElementById('filter-min-price').value,
+          videoURL: document.getElementById('filter-max-price').value,
+        }
+        return filters
+  }
 window.addEventListener('DOMContentLoaded', function(){
     
     
@@ -99,6 +107,6 @@ window.addEventListener('DOMContentLoaded', function(){
            insertVideo(videoArray[i].name, videoArray[i].url, videoArray[i].type)
         }
     });
-
+ 
     
 });
