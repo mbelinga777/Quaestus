@@ -1,0 +1,139 @@
+<link rel="stylesheet" href="/style_diet.css">
+
+<header  class="section1-1">
+  <div class="diet-header">
+      <p>quaestus</p>
+      <a href="/", id="img_home_link"><img src="/logo_blue.png" a="#" alt=" Diet page logo"></a>
+      <h1 class="page-title"><a herf ="/diet">/diet</a><h1>
+  </div>
+</header>
+
+<aside class=" diet-filter-container">
+  <div class="diet-filter-input-container">
+          <label for="diet-filter-text" class="diet-filter-input-label">Search recipes</label>
+          <div class="diet-filter-input-element">
+            <input type="text" name="filter-text" id="filter-text" class="diet-filter-input">
+            <button id="Search-update-button" class="Search-filter-excersise-button"> Search recipes</button>
+          </div>
+  </div>
+
+<button onclick="toggle-Exercise-diet-Filter()" class="diet-dropbtn">Recipes</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div class="diet-filter-input-container">
+      <fieldset id="filter-condition" class="filter-fieldset">
+        <legend>Filter recipes</legend>
+        <!-- This is for the Min and the Max amount of calories  -->
+        <label for="filter-min-calories" class="filter-input-label">Calories</label>
+        <div class="filter-input-element">
+          <input type="text" name="filter-min-price" id="filter-min-calories" class="filter-input" placeholder="min">
+        </div>
+        <div class="filter-input-element">
+          <input type="text" name="filter-max-calories" id="filter-max-calories" class="filter-input" placeholder="max">
+        </div>  
+        <!-- This is for the Min and the Max amount of Proteins  -->
+          <label for="filter-min-Protein" class="filter-input-label">Protein</label>
+        <div class="filter-input-element">
+            <input type="text" name="filter-min-Protein" id="filter-min-Protein" class="filter-input" placeholder="min">
+          </div>
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-Protein" id="filter-max-Protein" class="filter-input" placeholder="max">
+          </div>
+        </div>
+        <!-- This is for the Min and the Max amount of Carbs  -->   
+        <div>
+          <label for="filter-min-carbs" class="filter-input-label">Carbs</label>
+          <div class="filter-input-element">
+            <input type="text" name="filter-min-carbs" id="filter-min-carbs" class="filter-input" placeholder="min">
+          </div>
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-carbs" id="filter-max-carbs" class="filter-input" placeholder="max">
+          </div>
+        </div>
+        <!-- This is for the Min and the Max amount of Fats  -->
+        <div>
+          <label for="filter-min-fat" class="filter-input-label">Fats</label>
+          <div class="filter-input-element">
+            <input type="text" name="filter-min-fat" id="filter-min-fats" class="filter-input" placeholder="min">
+          </div>
+          <div class="filter-input-element">
+            <input type="text" name="filter-max-fat" id="filter-max-fat" class="filter-input" placeholder="max">
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <button id="filter-update-button" class="filter-excersise-button"> Update</button>
+  </div>
+</aside>
+
+  <button id="post-something-button"><i class="fas fa-plus"></i></button>
+
+  <div id="modal-backdrop" class="hidden"></div>
+  <div id="sell-something-modal" class="hidden">
+    <div class="modal-dialog">
+
+      <div class="modal-header">
+        <h3>Post a recipe</h3>
+        <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+      
+      </div>
+
+      <div class="modal-body">
+
+        <div class="post-input-element">
+        <label for="post-text-input">Recipe name</label>
+        <input type="text" id="post-text-input"></input>
+        </div>
+
+
+        <div class="post-input-element">
+        <label for="post-text-input">Recipe description </label>
+        <input type="text" id="post-description-input"></input>
+        </div>
+
+        <div class="post-input-element">
+        <label for="post-photo-input">Photo URL</label>
+        <input type="text" id="post-photo-input">
+        </div>
+
+
+        <div class="post-input-element">
+        <label for="post-Protein-text-input">Protein </label>
+        <input type="text" id="post-protein-input"></input>
+        </div>
+
+      <div class="post-input-element">
+        <label for="post-text-Calories-input">Calories </label>
+        <input type="text" id="post-calories-input"></input>
+      </div>
+
+      <div class="post-input-element">
+        <label for="post-text-carbs-input">Carbs </label>
+        <input type="text" id="post-carbs-input"></input>
+      </div>
+
+      <div class="post-input-element">
+        <label for="post-fat-text-input">Fats </label>
+        <input type="text" id="post-fats-text-input"></input>
+      </div>
+
+
+        <div class="modal-footer">
+          <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+          <button type="button" id="modal-accept" class="action-button">Create a recipe</button>
+        </div>
+
+<section id="recipe-post">
+      {{#each recipeData}}
+        {{> dietElement}}
+      {{/each}}
+  </section>
+             
+    </section>
+
+
+
+                
+
+
+    
+    

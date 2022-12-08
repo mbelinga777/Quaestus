@@ -1,0 +1,116 @@
+/*
+Filter and header
+*/
+.diet-dropbtnclass{
+    display: flex;
+    justify-content: center;
+    padding-right: 340px;
+}
+.diet-dropbtn{
+    border-radius: 30px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+.show {
+    display:block;
+    right: 50%;
+}
+.page-title{
+    font-size: 20px;
+    padding-top: 60px;
+}
+.diet-filter-input-container{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.diet-filter-input-container input[type=text]{
+    border-radius: 0px;
+    
+}
+.diet-header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    top: 10px;
+    padding-left: 20px;
+}
+.diet-header p{
+    font-size: 50px;
+    flex-direction: row;
+}
+.diet-header img{
+    padding-top: 40px;
+    height: 80px;
+    width: auto;
+}
+#Search-update-button{
+    background: url("search.png");
+    background-size: cover;
+    cursor: pointer;
+    width: 50px;
+    background-position-x: left;
+    height: 50px;
+    border: none;
+}
+#filter-text{
+    border-radius: 30px;
+    background-color: rgba(1,1,1,0);
+    border-color: #fff;
+    font-family: 'Krona One';
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/*
+diet video elements
+*/
+
+#diet-photo{
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.diet-photo{
+    padding-bottom: 10px;
+    border: #1f1f1f solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.diet-photo:hover{
+    border: #fff solid;
+    border-radius: 10px;
+}
+iframe {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+#fade{
+    z-index: 99;
+    padding-top: 5vh;
+    position: fixed;
+    top: 95vh;
+    width: 100%;
+    background: linear-gradient(to top, #242424, rgb(255, 255, 255, 0) 100%);
+}

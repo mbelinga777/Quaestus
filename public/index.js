@@ -1,6 +1,7 @@
+/*
+ *  Exercise page
+ */
 var videoArray=[];
-
-//var AllRecipes=Array.from(document.querySelectorAll())
 function insertVideo(name, videoURL,type) {
     var videoPost = Handlebars.templates.exerciseElement({
       name: name,
@@ -10,22 +11,10 @@ function insertVideo(name, videoURL,type) {
     var videoSection = document.getElementById('exercise-videos');
     videoSection.insertAdjacentHTML("beforeend", videoPost);
   }
-function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
-{
-
-}
 /*
     this function filters all the exercises based on what boxes the user checked
 
 */
-function filterRecipes(calories)
-{
-    clearRecipes()
-}
-function filterRecipes(calories)
-{
-    clearRecipes()
-}
 function toggleExerciseFilter()
 {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -33,12 +22,36 @@ function toggleExerciseFilter()
   
 function clearExercises()
 {
-    
     var posts=document.getElementById('exercise-videos')
     while(posts.firstChild)
     {
       posts.removeChild(posts.firstChild)
     }
+}
+/*
+ *  Diet page
+ */ 
+var recipeArray=[];
+function insertRecipe(name, videoURL,type) {
+    var recipePost = Handlebars.templates.dietElement({
+        name: name,
+        photoURL: photoURL,
+        recipeURL: recipeURL,
+        calories: calories,
+        carbs: carbs,
+        protein: protein,
+        fat: fat
+    })
+    var videoSection = document.getElementById('recipe-post');
+    videoSection.insertAdjacentHTML("beforeend", recipePost);
+}
+function filterRecipes(calories)
+{
+    clearRecipes()
+}
+function filterRecipes(calories)
+{
+    clearRecipes()
 }
 function clearRecipes()
 {
