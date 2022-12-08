@@ -1,4 +1,5 @@
 var videoArray=[];
+var recipeArray=[];
 
 //var AllRecipes=Array.from(document.querySelectorAll())
 function insertVideo(name, videoURL,type) {
@@ -10,9 +11,17 @@ function insertVideo(name, videoURL,type) {
     var videoSection = document.getElementById('exercise-videos');
     videoSection.insertAdjacentHTML("beforeend", videoPost);
   }
-function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
+function insertRecipe(photoURL,name,calories,protein,,carbs,fat,recipeURL)
 {
-
+    var recipePost = Handlebars.templates.exerciseElement({
+        name: name,
+        photoURL: photoURL,
+        recipeURL: recipeURL,
+        calories: calories,
+        protein:protein,
+        fat:fat,
+      })
+      var recipeSection = document.getElementById('exercise-videos')
 }
 /*
     this function filters all the exercises based on what boxes the user checked
