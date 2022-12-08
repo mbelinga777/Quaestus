@@ -44,7 +44,7 @@ body{
 .buffer1{
     padding-top: 5%;
     width: 100%;
-    min-height: 69vh;
+    min-height: 65vh;
     background: linear-gradient(-45deg, #3B5EEE, #A3A3A3);
     background-size: 300% 300%;
 }
