@@ -57,6 +57,17 @@ function parseVideoElem(videoElem) {
         }
         return filters
   }
+  function clearMenu()
+  {
+    var nameInput=document.getElementById('video-input-name')
+    nameInput.value=""
+    var typeInput=document.getElementById('video-input-type')
+    typeInput.value=""
+    var urlInput=document.getElementById('video-input-url')
+    urlInput.value=""
+    toggleAddBtn()
+
+  }
 window.addEventListener('DOMContentLoaded', function(){
     
     
@@ -112,5 +123,18 @@ window.addEventListener('DOMContentLoaded', function(){
         }
     });
  
-    
+    var addButton = document.getElementById('addbtn');
+    addButton.addEventListener('click',function(){
+        var textName= document.getElementById('video-input-name')
+        var textType= document.getElementById('video-input-type')
+        var textURL= document.getElementById('video-input-url')
+
+        if(textName.value==""||textURL.value==""||textType.value=="") 
+        {
+            alert("please fill out all elements")
+            return;
+        }
+        insertVideo(textName.value,textURL.value,textType.value)
+        clearMenu()
+    })
 });
