@@ -1,11 +1,13 @@
 <link rel="stylesheet" href="/style_exercise.css">
-<div class="exercise-header">
-    <p>quaestus</p>
-    <img src="logo_blue.png" a="#" alt=" Excersise page logo">
-    <h1 class="page-title"><a herf ="#">/exercises</a><h1>
-</div>
+<header>
+  <div class="exercise-header">
+      <p>quaestus</p>
+      <a href="/", id="img_home_link"><img src="/logo_blue.png" a="#" alt=" Excersise page logo"></a>
+      <h1 class="page-title"><a herf ="/exercise">/exercises</a><h1>
+  </div>
+</header>
 
-<aside class=" Excersise-filter-container">
+<aside class="Excersise-filter-container">
   <div class="Excersise-filter-input-container">
   
     <input type="text" name="filter-text" id="filter-text" placeholder="Search exercises..">
@@ -48,8 +50,7 @@
     </div>
     <button id="filter-update-button" class="filter-excersise-button"> Update</button>
   </div>
-
-</aside>  
+</aside>
 
   <section id="exercise-videos">
       {{#each exerciseData}}

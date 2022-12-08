@@ -14,12 +14,31 @@ app.set('view engine', 'handlebars')
 
 app.use(express.static('public'));
 
-app.get('/', function(req, res){
+app.get('/', function(req, res,){
   res.status(200).render('./partials/home');
 });
 
-app.get('/food', function(req, res){
-    res.status(200).render('./partials/foodPage');
+app.get('/aboutUs', function(req, res){
+  res.status(200).render('./partials/aboutUs');
+});
+
+app.get('/LinkedIn', function(req, res){
+  res.status(200).render('./partials/LinkedIn');
+});
+
+app.get('/diet', function(req, res){
+    res.status(200).render('./partials/dietPage');
+});
+
+app.get('/exercise/:n', function (req, res, next) {
+  var n = req.params.n.toLowerCase();
+  if(exerciseData[n]){
+    res.status(200).render('./partials/exercisePage', {
+      exerciseData: [exerciseData[n]]
+    });
+  } else {
+    next();
+  }
 });
 
 app.get('/exercise', function(req, res){

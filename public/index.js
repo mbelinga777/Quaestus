@@ -1,3 +1,6 @@
+/*
+ *  Exercise page
+ */
 var videoArray=[];
 var recipeArray=[];
 
@@ -27,14 +30,6 @@ function insertRecipe(photoURL,name,calories,protein,,carbs,fat,recipeURL)
     this function filters all the exercises based on what boxes the user checked
 
 */
-function filterRecipes(calories)
-{
-    clearRecipes()
-}
-function filterRecipes(calories)
-{
-    clearRecipes()
-}
 function toggleExerciseFilter()
 {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -42,12 +37,36 @@ function toggleExerciseFilter()
   
 function clearExercises()
 {
-    
     var posts=document.getElementById('exercise-videos')
     while(posts.firstChild)
     {
       posts.removeChild(posts.firstChild)
     }
+}
+/*
+ *  Diet page
+ */ 
+var recipeArray=[];
+function insertRecipe(name, videoURL,type) {
+    var recipePost = Handlebars.templates.dietElement({
+        name: name,
+        photoURL: photoURL,
+        recipeURL: recipeURL,
+        calories: calories,
+        carbs: carbs,
+        protein: protein,
+        fat: fat
+    })
+    var videoSection = document.getElementById('recipe-post');
+    videoSection.insertAdjacentHTML("beforeend", recipePost);
+}
+function filterRecipes(calories)
+{
+    clearRecipes()
+}
+function filterRecipes(calories)
+{
+    clearRecipes()
 }
 function clearRecipes()
 {
