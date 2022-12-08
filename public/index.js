@@ -14,18 +14,7 @@ function insertVideo(name, videoURL,type) {
     var videoSection = document.getElementById('exercise-videos');
     videoSection.insertAdjacentHTML("beforeend", videoPost);
   }
-function insertRecipe(photoURL,name,calories,protein,,carbs,fat,recipeURL)
-{
-    var recipePost = Handlebars.templates.exerciseElement({
-        name: name,
-        photoURL: photoURL,
-        recipeURL: recipeURL,
-        calories: calories,
-        protein:protein,
-        fat:fat,
-      })
-      var recipeSection = document.getElementById('exercise-videos')
-}
+
 /*
     this function filters all the exercises based on what boxes the user checked
 
@@ -43,41 +32,6 @@ function clearExercises()
       posts.removeChild(posts.firstChild)
     }
 }
-/*
- *  Diet page
- */ 
-var recipeArray=[];
-function insertRecipe(name, videoURL,type) {
-    var recipePost = Handlebars.templates.dietElement({
-        name: name,
-        photoURL: photoURL,
-        recipeURL: recipeURL,
-        calories: calories,
-        carbs: carbs,
-        protein: protein,
-        fat: fat
-    })
-    var videoSection = document.getElementById('recipe-post');
-    videoSection.insertAdjacentHTML("beforeend", recipePost);
-}
-function filterRecipes(calories)
-{
-    clearRecipes()
-}
-function filterRecipes(calories)
-{
-    clearRecipes()
-}
-function clearRecipes()
-{
-    /*
-    var posts=document.getElementById('recipePosts')
-    while(posts.firstChild)
-    {
-       posts.removeChild(posts.firstChild)
-    } 
-    */
-}
 function parseVideoElem(videoElem) {
     
     var postVideoElem = videoElem.querySelector('.video iframe');
@@ -90,6 +44,60 @@ function parseVideoElem(videoElem) {
     };
   
     return video;
+  
+  }
+/*
+ *  Diet page
+ */ 
+var recipeArray=[];
+function insertRecipe(photoURL,name,calories,protein,carbs,fat,recipeURL) {
+    var recipePost = Handlebars.templates.dietElement({
+        name: name,
+        photoURL: photoURL,
+        recipeURL: recipeURL,
+        calories: calories,
+        carbs: carbs,
+        protein: protein,
+        fat: fat,
+    })
+    var recipeSection = document.getElementById('recipe-posts');
+    recipeSection.insertAdjacentHTML("beforeend", recipePost);
+}
+function filterRecipes(calories)
+{
+    clearRecipes()
+}
+function filterRecipes(calories)
+{
+    clearRecipes()
+}
+function clearRecipes()
+{
+    
+    var posts=document.getElementById('recipe-posts')
+    while(posts.firstChild)
+    {
+       posts.removeChild(posts.firstChild)
+    } 
+    
+}
+function parseRecipeElem(recipeElem) {
+    
+    var recipeIm = recipeElem.querySelector('.post-image-container img');
+    var photoURL=recipeIm.src
+    var recipeLink = recipeElem.querySelector('.post-info-container a');
+    var recipeURL=recipeLink.href
+    var recipe = {
+      name: recipeElem.getAttribute('data-name'),
+      calories: recipeElem.getAttribute('data-calories'),
+      protein: recipeElem.getAttribute('data-protein'),
+      carbs: recipeElem.getAttribute('data-carbs'),
+      fat: recipeElem.getAttribute('data-fat'),
+      imageURL:  photoURL,
+      recipeURL: recipeURL,
+    };
+  
+    return recipe;
   
   }
 window.addEventListener('DOMContentLoaded', function(){
