@@ -24,6 +24,11 @@ body{
     animation: 12s ease-in-out background-anim;
     animation-iteration-count: infinite;
 }
+.section1-1 {
+    /*s
+     *  add possible background to header of exercisePage
+     */
+}
 @keyframes background-anim{
     0% {
         background-image: url("stock_workout.jpg");
@@ -51,6 +56,14 @@ body{
 .buffer1 p{
     padding-top: 20px;
 }
+
+.section2{
+    padding-bottom: 0%;
+    padding: 10%;
+    height: 20hv;
+}
+
+
 #go-to a{
     font-size: 20px;
     max-width: 150px;

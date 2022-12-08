@@ -7,7 +7,7 @@ function insertVideo(name, videoURL,type) {
       videoURL: videoURL,
       type: type,
     })
-    var videoSection = document.querySelector('#exercise-videos');
+    var videoSection = document.getElementById('exercise-videos');
     videoSection.insertAdjacentHTML("beforeend", videoPost);
   }
 function addRecipe(photoURL,name,calories,protein,sugar,carbs,fat,link)
