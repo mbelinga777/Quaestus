@@ -9,7 +9,25 @@
 
 <aside class="Excersise-filter-container">
   <div class="Excersise-filter-input-container">
-  
+    <button onclick="toggleAddBtn()" id="create-button">+</button>
+    <div id="addDropdown" class="add-dropdown-content">
+      <div class="filter-input-container">
+        <fieldset id="filter-exercise">
+          <legend>Add Exercise</legend>
+          <div>
+            <input type="text" name="add-input" id="filter-condition-back" value="Name">
+          </div>
+          <div>
+            <input type="text" name="add-input" id="filter-condition-chest" value="Type">
+          </div>
+          <div>
+            <input type="text" name="add-input" id="filter-condition-arms" value="VideoURL">
+          </div>
+        </fieldset>
+      </div>
+      <button id="addbtn">Add</button>
+    </div>
+
     <input type="text" name="filter-text" id="filter-text" placeholder="Search exercises..">
 
     <button id="Search-update-button"></button>
@@ -17,6 +35,7 @@
   </div>
   <div class = "dropbtnclass">
   <button onclick="toggleExerciseFilter()" class="dropbtn">Exercises</button>
+  <button class="update-liked">Update Liked</button>
   </div>
   <div id="myDropdown" class="dropdown-content">
     <div class="filter-input-container">

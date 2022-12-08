@@ -4,15 +4,27 @@ Filter and header
 .dropbtnclass{
     display: flex;
     justify-content: center;
-    padding-right: 340px;
+    padding-right: 300px;
 }
 .dropbtn{
+    border-radius: 30px;
+}
+.update-liked{
     border-radius: 30px;
 }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+.add-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 10px;
     min-width: 230px;
     border: 1px solid #ddd;
     z-index: 1;
