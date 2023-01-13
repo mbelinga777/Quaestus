@@ -21,6 +21,10 @@ function toggleExerciseFilter()
 {
     document.getElementById("myDropdown").classList.toggle("show");
 }
+function toggleAddBtn()
+{
+    document.getElementById("addDropdown").classList.toggle("show");
+}
   
 function clearExercises()
 {
@@ -44,7 +48,26 @@ function parseVideoElem(videoElem) {
     return video;
   
   }
+  function getValues()
+  {
+      var filters = {
+          name: document.getElementById('filter-text').value,
+          type: document.getElementById('filter-min-price').value,
+          videoURL: document.getElementById('filter-max-price').value,
+        }
+        return filters
+  }
+  function clearMenu()
+  {
+    var nameInput=document.getElementById('video-input-name')
+    nameInput.value=""
+    var typeInput=document.getElementById('video-input-type')
+    typeInput.value=""
+    var urlInput=document.getElementById('video-input-url')
+    urlInput.value=""
+    toggleAddBtn()
 
+  }
 window.addEventListener('DOMContentLoaded', function(){
     
     
@@ -99,6 +122,31 @@ window.addEventListener('DOMContentLoaded', function(){
            insertVideo(videoArray[i].name, videoArray[i].url, videoArray[i].type)
         }
     });
-
-    
+ 
+    var addButton = document.getElementById('addbtn');
+    addButton.addEventListener('click',function(){
+        var textName= document.getElementById('video-input-name')
+        var textType= document.getElementById('video-input-type')
+        var textURL= document.getElementById('video-input-url')
+         
+        if(textName.value==""||textURL.value==""||textType.value=="") 
+        {
+            alert("please fill out all elements")
+            return;
+        }
+        var data={
+            name:textName.value,
+            type:textType.value,
+            videoURL: textURL.value,
+         }
+        insertVideo(textName.value,textURL.value,textType.value)
+        clearMenu()
+        /*
+        var theData=JSON.stringify(data)
+        fs.appendFile("exerciseData.json", theData , function (err) {
+            if (err) throw err;
+            console.log('The "data to append" was appended to file!');
+         });
+         */
+    })
 });
