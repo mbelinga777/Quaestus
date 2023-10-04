@@ -26,7 +26,8 @@ app.get('/LinkedIn', function(req, res){
   res.status(200).render('./partials/LinkedIn');
 });
 
-app.get('/diet', function(req, res){
+app.get('/diet', function(req, res)
+{
     res.status(200).render('./partials/dietPage');
 });
 
